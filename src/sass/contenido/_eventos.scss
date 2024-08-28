@@ -1,0 +1,20 @@
+.eventos{
+    .card{
+        &:hover{
+            cursor: pointer;
+        }
+        .card-body .fecha{
+            color:#877457;
+        }
+    }
+}
+.bg-color{
+    background-color: #0098ae;
+    border: none;
+}
+.text-color{
+    color: #0098ae;
+}
+.medicion{
+    font-size: 12px;
+}

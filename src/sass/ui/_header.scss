@@ -1,0 +1,64 @@
+@use "../bootstrap.scss" as v;
+
+.header{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+.logo{
+    width: 130px;
+}
+.img-personal{
+    height: 100%;
+    object-fit: cover;
+} 
+@media (max-width:480px) {
+    .medidas{
+        font-size: 16px !important;
+    }
+}
+@media (max-width:768px){
+    .titulo{
+        font-size: 40px !important;
+    }
+    .medidas{
+        font-size: 16px !important;
+    }
+} 
+@media (min-width:800px){
+    .titulo{
+        font-size: 50px !important;
+    }
+    .medidas{
+        font-size: 16px !important; 
+    }
+}
+@media (min-width:884px){
+    .titulo{
+        font-size: 55px !important;
+    }
+    .medidas{
+        font-size: 24px !important; 
+    }
+}
+@media (min-width:992px){
+    .titulo{
+        font-size: 48px !important;
+    }
+    .medidas{
+        font-size: 24px !important; 
+    }
+}
+@media (min-width:1114px){
+    .titulo{
+        font-size: 70px !important;
+    }
+}
+@media (min-width:1280px){
+    .titulo{
+        font-size:70px !important;
+    }
+    .medidas{
+        font-size: 28px !important; 
+    }
+}
